@@ -585,12 +585,7 @@
 
 
 		.myForm {
-			grid-template-columns: 1fr;
-
-			grid-template-areas:
-				"labels"
-				"controls";
-
+			
 
 		}
 
