@@ -1,0 +1,4 @@
+User-agent: *
+Allow: *
+Host: shabalin.su
+Sitemap: http://shabalin.su/sitemap.xml
