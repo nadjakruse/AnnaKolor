@@ -19,13 +19,13 @@ $text = trim($text);
 
 
 if (mail("nadya_osatyuk@hotmail.com", "Заявка с сайта", "ФИО: ".$fio."\r\nE-mail: ".$email. "\r\nСообщение: " .$text,"From: sun@soholan.net \r\n"))
- {     echo "сообщение успешно отправлено";
-  header("Location: http://sabalin.su/index2.html"); путь что откроется после отправления
- // echo "<script>document.location.href='/indexsite.html';</script>"; или так ?
+ { echo "<script> alert(\"Сообщение успешно отправлено\");</script>";
+header("refresh:0; url=http://shabalin.su");
 } else {
     echo "при отправке сообщения возникли ошибки";
+    
 }
 
-//refresh:5;
+
 
 ?>
